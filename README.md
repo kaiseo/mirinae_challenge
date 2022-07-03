@@ -11,8 +11,6 @@ Pages dir contains:
   History
   HistoryData
 
-
-
 *Required implement functionality
 
 Page router
