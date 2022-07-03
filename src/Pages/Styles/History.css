@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+}
+
+.history-title {
+  box-sizing: border-box;
+  display: block;
+  margin: 1.2rem 0 0 5rem;
+  font-size: 1.2rem;
+  position: absolute;
+  text-align: left;
+  font-weight: bold;
+  z-index: 0;
+}
+
+.history-title span {
+  color: #73bdbb;
+}
+
+.history-block {
+  display: inline-block;
+  width: 800px;
+  margin-top: 10rem;
+}
+
+.history-container {
+  display: block;
+  position: relative;
+  margin: 2rem;
+}
+
+.history-data {
+  display: flex;
+  position: relative;
+  height: 100%;
+  padding: 1.5rem 2rem 1rem 1rem;
+  border-bottom: dashed 2px lightgray;
+}
+
+/*Change colors and font-weight for each history data when hovering*/
+
+.history-data:hover .history-text {
+  color: #73bdbb;
+}
+
+.history-data:hover .history-enText {
+  color: black;
+  font-weight: bold;
+}
+
+/* Each row of content */
+
+.history-text {
+  display: inline-flex;
+  position: absolute;
+  font-size: 14px;
+}
+
+.history-enText {
+  display: inline-flex;
+  position: relative;
+  margin: 2rem 0 0 2rem;
+  font-size: 13px;
+  color: grey;
+}
+
+.history-date {
+  display: inline-flex;
+  position: relative;
+  margin-left: auto;
+
+}
+
+.closeButton {
+  display: inline-flex;
+  position: relative;
+  margin-left: 2rem;
+  background: url(../../Components/icons/icon-close.svg) no-repeat;
+  cursor: pointer;
+  border-style: none;
+}

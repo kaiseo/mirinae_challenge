@@ -1,0 +1,121 @@
+.navbar {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+  cursor: pointer;
+}
+
+.menu-bars img {
+
+  margin-top: 1.5rem;
+
+}
+
+.indicator {
+  width: 0.1rem;
+  height: 2rem;
+  margin-right: 1rem;
+  background-color: lightgrey;
+}
+
+.indicator-focus {
+  width: 0.1rem;
+  height: 2rem;
+  margin-right: 1rem;
+  background-color: green;
+}
+
+.nav-block {
+  text-align: left;
+}
+
+.nav-title {
+  display: block;
+  position: relative;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #48A9A6;
+}
+
+.nav-menu {
+  background-color: #ffffff;
+  width: 300px;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 1;
+  transition: 2s
+    /*animation: 2s slide-left;*/
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 850ms;
+  /*animation:2s slide-right;*/
+}
+
+.nav-text {
+  display: flex;
+  position: relative;
+  align-items: center;
+  list-style: none;
+
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.nav-text a:hover {
+  color: #8BD3E1;
+}
+
+
+.nav-menu-items {
+  list-style: none;
+  width: 100%;
+}
+
+.navbar-toggle {
+  text-align: right;
+  margin-right: 2rem;
+}
+
+/* failed to get it to work. Applied transition instead.
+@keyframes slide-right {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+*/

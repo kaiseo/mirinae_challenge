@@ -1,0 +1,22 @@
+  .profile {
+      display: flex;
+      position: relative;
+  }
+
+  .profile-username {
+      font-weight: bold;
+      color: gray;
+      margin: 1rem 0.5rem 0 0;
+      font-size: large;
+  }
+
+  .profile-initial {
+      border-style: transparent;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px 1px lightgray;
+      background-color: white;
+      font-weight: bold;
+      font-size: large;
+      padding: 0.5rem 0.7rem;
+      margin: 0.5rem 1rem 0 0;
+  }
